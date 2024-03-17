@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="Views\HeadFootSection\_Footer.cshtml" />
+    <None Include="Views\HeadFootSection\_Header.cshtml" />
+    <None Include="wwwroot\images\app.svg" />
+    <None Include="wwwroot\images\arrows.svg" />
+    <None Include="wwwroot\images\benefits.svg" />
+    <None Include="wwwroot\images\brands\brand_1.svg" />
+    <None Include="wwwroot\images\brands\brand_2.svg" />
+    <None Include="wwwroot\images\brands\brand_3.svg" />
+    <None Include="wwwroot\images\brands\brand_4.svg" />
+    <None Include="wwwroot\images\button\appstore.svg" />
+    <None Include="wwwroot\images\button\googleplay.svg" />
+    <None Include="wwwroot\images\icon\add-group.svg" />
+    <None Include="wwwroot\images\icon\bell.svg" />
+    <None Include="wwwroot\images\icon\chat.svg" />
+    <None Include="wwwroot\images\icon\presentation.svg" />
+    <None Include="wwwroot\images\icon\shield.svg" />
+    <None Include="wwwroot\images\icon\tests.svg" />
+    <None Include="wwwroot\images\showcase-taskmaster.svg" />
+    <None Include="wwwroot\images\solid.svg" />
+    <None Include="wwwroot\images\Tools\Dropbox.svg" />
+    <None Include="wwwroot\images\Tools\evernote.svg" />
+    <None Include="wwwroot\images\Tools\gmail.svg" />
+    <None Include="wwwroot\images\Tools\Google.svg" />
+    <None Include="wwwroot\images\Tools\MailChimp.svg" />
+    <None Include="wwwroot\images\Tools\slack.svg" />
+    <None Include="wwwroot\images\Tools\trello.svg" />
+    <None Include="wwwroot\images\Tools\zoom.svg" />
+  </ItemGroup>
+
+</Project>
