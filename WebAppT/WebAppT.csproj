@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="compilerconfig.json" />
     <None Include="Views\HeadFootSection\_Footer.cshtml" />
     <None Include="Views\HeadFootSection\_Header.cshtml" />
