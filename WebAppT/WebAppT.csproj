@@ -41,4 +41,8 @@
     <None Include="wwwroot\images\Tools\zoom.svg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\scss\sections\AuthSection\" />
+  </ItemGroup>
+
 </Project>
