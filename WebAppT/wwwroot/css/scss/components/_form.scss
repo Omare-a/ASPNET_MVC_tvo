@@ -8,11 +8,11 @@
     }
 
     .checkbox-group {
-        margin: 1rem 0;
         display: flex;
+        margin: 1rem 0;
         justify-content: flex-start;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
 
         input[type="checkbox"] {
             height: 1.2rem;
@@ -22,6 +22,16 @@
         label {
             margin-bottom: 0;
             font-weight: 400;
+        }
+
+        span {
+            &.field-validation-error {
+                position: static;
+                top: 0;
+                right: 0;
+                @include text-s;
+                color: $danger;
+            }
         }
     }
 
@@ -35,5 +45,28 @@
         padding: 1rem;
         border-radius: 8px !important;
         border: 1px solid $gray-500;
+
+        &::placeholder {
+            opacity: 0.4;
+        }
+
+        &.input-validation-error {
+            border: 1px solid $danger !important;
+            color: $danger;
+
+            &::placeholder {
+                color: $danger;
+            }
+        }
+    }
+
+    span {
+        &.field-validation-error {
+            position: absolute;
+            top: 0;
+            right: 0;
+            @include text-s;
+            color: $danger;
+        }
     }
 }

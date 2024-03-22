@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="compilerconfig.json" />
     <None Include="Views\HeadFootSection\_Footer.cshtml" />
     <None Include="Views\HeadFootSection\_Header.cshtml" />
@@ -43,6 +39,10 @@
     <None Include="wwwroot\images\Tools\slack.svg" />
     <None Include="wwwroot\images\Tools\trello.svg" />
     <None Include="wwwroot\images\Tools\zoom.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\scss\sections\AuthSection\" />
   </ItemGroup>
 
 </Project>
