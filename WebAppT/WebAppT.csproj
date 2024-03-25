@@ -12,8 +12,10 @@
 
   <ItemGroup>
     <None Include="compilerconfig.json" />
-    <None Include="Views\HeadFootSection\_Footer.cshtml" />
-    <None Include="Views\HeadFootSection\_Header.cshtml" />
+    <None Include="Views\Shared\HeadFootSection\_Footer.cshtml" />
+    <None Include="Views\Shared\HeadFootSection\_Header.cshtml" />
+    <None Include="Views\Shared\Sections\_Features.cshtml" />
+    <None Include="Views\Shared\Sections\_Showcase.cshtml" />
     <None Include="wwwroot\images\app.svg" />
     <None Include="wwwroot\images\arrows.svg" />
     <None Include="wwwroot\images\benefits.svg" />
